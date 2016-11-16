@@ -34,12 +34,12 @@ engines:
     enabled: false
   duplication:
     enabled: true
-    concurrency: 1
     config:
       languages:
       - ruby
       - javascript
       debug: true
+      concurrency: 1
   eslint:
     enabled: true
     channel: "eslint-3"
