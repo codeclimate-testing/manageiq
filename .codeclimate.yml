@@ -34,11 +34,11 @@ engines:
     enabled: false
   duplication:
     enabled: true
-    debug: true
     config:
       languages:
       - ruby
       - javascript
+      debug: true
   eslint:
     enabled: true
     channel: "eslint-3"
