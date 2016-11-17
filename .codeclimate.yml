@@ -38,7 +38,7 @@ engines:
       languages:
       - ruby
       - javascript
-      debug: true
+      debug: false
       concurrency: 1
   eslint:
     enabled: true
