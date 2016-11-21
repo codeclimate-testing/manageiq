@@ -5,4 +5,6 @@ module Api
   BadRequestError = Class.new(ApiError)
   NotFoundError = Class.new(ApiError)
   UnsupportedMediaTypeError = Class.new(ApiError)
+
+  { foo: :bar }
 end
